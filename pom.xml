@@ -69,7 +69,7 @@
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>42.2.8</version>
+            <version>42.7.5</version>
         </dependency>
      </dependencies>
      <build>
@@ -124,7 +124,7 @@
                             <inputDirectory>${project.build.directory}</inputDirectory>
                             <jsonFiles>
                                 <param>**/json-reports/*.json</param>
-                            </jsonFiles><classificationFiles>->
+                            </jsonFiles><classificationFiles>-&gt;
                             <param>sample.properties</param>
                             <param>other.properties</param>
                         </classificationFiles>
