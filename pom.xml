@@ -51,7 +51,7 @@
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
-            <version>7.2.3</version>
+            <version>7.21.1</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
         <dependency>
@@ -124,7 +124,7 @@
                             <inputDirectory>${project.build.directory}</inputDirectory>
                             <jsonFiles>
                                 <param>**/json-reports/*.json</param>
-                            </jsonFiles><classificationFiles>->
+                            </jsonFiles><classificationFiles>-&gt;
                             <param>sample.properties</param>
                             <param>other.properties</param>
                         </classificationFiles>
