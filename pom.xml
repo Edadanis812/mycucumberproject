@@ -37,7 +37,7 @@
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
-            <version>4.1.2</version>
+            <version>5.4.0</version>
         </dependency>
         <!--        a library to generate fake data when needed-->
         <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
@@ -124,7 +124,7 @@
                             <inputDirectory>${project.build.directory}</inputDirectory>
                             <jsonFiles>
                                 <param>**/json-reports/*.json</param>
-                            </jsonFiles><classificationFiles>->
+                            </jsonFiles><classificationFiles>-&gt;
                             <param>sample.properties</param>
                             <param>other.properties</param>
                         </classificationFiles>
